@@ -1,0 +1,123 @@
+.header {
+    padding: 20px;
+    background-color: lightskyblue;
+    text-align: center;
+    
+}
+
+h1 {
+    
+    font-size: 60px;
+    color: crimson;
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+img {
+    width: 500px 1000px ;
+}
+
+.primary {
+    background-color: orangered;
+    color: black;
+    padding: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients {
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+}
+
+.steps {
+    background-color: rgb(201, 130, 0);
+    color: rgb(179, 179, 179);
+    font-size: 30px;
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+}
+
+
+
+.link {
+    width: 100%;
+    overflow: auto;
+}
+
+
+.link a {
+    float: left;
+    padding: 30px;
+    color: blue;
+    background-image: url(https://www.365daysofbakingandmore.com/wp-content/uploads/2018/11/Lasagna-FEATURE.jpg);
+    text-decoration: none;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: white;
+} 
+
+h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+
+.recipes {
+    width: 100%;
+    overflow: auto;
+    background-color: blueviolet;
+    padding: 5px 2px;
+}
+
+.recipes a {
+    float: left;
+    padding: 40px 0px;
+    color: blue;
+    background-color: grey;
+    text-decoration: none;
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.recipes a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  } 
